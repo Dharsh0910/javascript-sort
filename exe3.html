@@ -1,0 +1,14 @@
+
+<button onclick="next()">add</button>
+<div id="hello"></div>
+
+<script>
+    var div=document.getElementById("hello")
+    function next()
+    {
+        var listitem=document.createElement("h1")
+        listitem.textContent="hello"
+        div.append(listitem)
+
+    }
+</script>

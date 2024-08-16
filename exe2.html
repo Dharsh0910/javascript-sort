@@ -1,0 +1,13 @@
+<input id="s1" onkeyup="update()">
+<p id="type">type...</p>
+
+<script>
+    var string=document.getElementById("s1")
+    var type=document.getElementById("type")
+    
+    function update()
+    {
+        type.textContent=string.value
+    }
+    
+</script>
